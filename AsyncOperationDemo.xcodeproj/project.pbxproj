@@ -12,6 +12,8 @@
 		65922F0E22661AF600F9C165 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65922F0C22661AF600F9C165 /* Main.storyboard */; };
 		65922F1022661AF700F9C165 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65922F0F22661AF700F9C165 /* Assets.xcassets */; };
 		65922F1322661AF700F9C165 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65922F1122661AF700F9C165 /* LaunchScreen.storyboard */; };
+		65922F1B22661B1500F9C165 /* AsyncOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65922F1A22661B1500F9C165 /* AsyncOperation.swift */; };
+		65922F1D22661D2F00F9C165 /* SumOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65922F1C22661D2F00F9C165 /* SumOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		65922F0F22661AF700F9C165 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		65922F1222661AF700F9C165 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		65922F1422661AF700F9C165 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65922F1A22661B1500F9C165 /* AsyncOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncOperation.swift; sourceTree = "<group>"; };
+		65922F1C22661D2F00F9C165 /* SumOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumOperation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				65922F0F22661AF700F9C165 /* Assets.xcassets */,
 				65922F1122661AF700F9C165 /* LaunchScreen.storyboard */,
 				65922F1422661AF700F9C165 /* Info.plist */,
+				65922F1A22661B1500F9C165 /* AsyncOperation.swift */,
+				65922F1C22661D2F00F9C165 /* SumOperation.swift */,
 			);
 			path = AsyncOperationDemo;
 			sourceTree = "<group>";
@@ -136,7 +142,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				65922F0B22661AF600F9C165 /* ViewController.swift in Sources */,
+				65922F1B22661B1500F9C165 /* AsyncOperation.swift in Sources */,
 				65922F0922661AF600F9C165 /* AppDelegate.swift in Sources */,
+				65922F1D22661D2F00F9C165 /* SumOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
